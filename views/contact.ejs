@@ -1,0 +1,47 @@
+<%- layout("/layouts/boilerplate.ejs") %>
+
+<div class="con-form">
+  <div class="deta">
+    <span>
+      <h2 class="cl">
+      <i class="fa-solid fa-phone"></i>
+      CALL ME
+      </h2>
+      <H2>+91 7681070688</H2>
+    </span>
+    <span class="ii">
+      <h2 class="cl">
+        <i class="fa-solid fa-envelope"></i>
+        MY EMAIL
+      </h2>
+      <H2>subhamsahu51006@gmail.com</H2>
+    </span>
+
+    <span class="ii iii">
+      <h2 class="cl">
+        <i class="fa-solid fa-location-dot"></i>
+        ADDRESS
+      </h2>
+      <p><b>BADAGADA, BHUBANESWAR, ODISHA, INDIA <br> PINCODE - 751018</b></p>
+    </span>
+  </div>
+  <div class="cot">
+    <form action="/send-email" method="POST" class="form-det">
+      <input type="text" name="name" placeholder="Your Name" class="inpi" required>
+      <input type="email" name="email" placeholder="Your Email" class="inpii" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">
+        <i class="fa-solid fa-paper-plane"></i>
+        Send
+      </button>
+    </form>
+  </div>
+</div>
+
+<% if (typeof success !== 'undefined') { %>
+  <% if (success === 'true') { %>
+    <p style="color: green;">Message sent successfully!</p>
+  <% } else { %>
+    <p style="color: red;">Failed to send message. Please try again.</p>
+  <% } %>
+<% } %>

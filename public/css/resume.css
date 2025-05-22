@@ -1,0 +1,39 @@
+.down {
+    height: 100px;
+    width: 500px;
+    border: 2px solid white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.down p {
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+.down i {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.down button {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 30px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+.down button:hover {
+    border-radius: 18px;
+}

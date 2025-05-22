@@ -1,0 +1,26 @@
+{
+  "name": "fullstack-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "ejs-mate": "^4.0.0",
+    "express": "^5.1.0",
+    "mate": "^0.21.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.13.2",
+    "node": "^23.11.0",
+    "nodemailer": "^7.0.3",
+    "nodemon": "^3.1.10"
+  }
+}

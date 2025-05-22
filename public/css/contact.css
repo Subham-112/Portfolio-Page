@@ -1,0 +1,129 @@
+.con-form {
+    width: 99.8%;
+    height: 690px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-det {
+    height: 500px;
+    width: 500px;
+    border-radius: 30px;
+    border: 2px solid #ffd10c;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out;
+}
+
+.form-det:hover {
+    box-shadow: 0 0 20px 5px rgba(255, 209, 12, 0.3);
+}
+
+.form-det .inpi {
+    height: 30px;
+    width: 380px;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: white;
+    background-color: rgb(49, 49, 49);
+}
+
+.form-det .inpi:focus {
+    border: 2px solid #ffd10c;
+}
+
+.form-det .inpii {
+    height: 30px;
+    width: 380px;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: white;
+    background-color: rgb(49, 49, 49);
+}
+
+.form-det .inpii:focus {
+    border: 2px solid #ffd10c;
+}
+
+.form-det textarea {
+    height: 80px;
+    width: 380px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    resize: none;
+    margin-bottom: 30px;
+    color: white;
+    background-color: rgb(49, 49, 49);
+}
+
+.form-det textarea:focus {
+    border: 2px solid #ffd10c;
+}
+
+.form-det button {
+    height: 50px;
+    width: 120px;
+    font-size: 19px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffd10c;
+    cursor: pointer;
+}
+
+.deta {
+    height: 500px;
+    width: 400px;
+    border-radius: 30px;
+    border: 2px solid #ffd10c;
+    background-color: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: ease-in-out;
+    margin-right: 30px;
+}
+
+.deta:hover {
+    box-shadow: 0 0 20px 5px rgba(255, 209, 12, 0.3);
+}
+
+.deta .cl {
+    height: 50px;
+    width: 170px;
+    border-radius: 30px;
+    color: black;
+    background-color: #ffd10c;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ii {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iii p {
+    font-size: 17px;
+}
